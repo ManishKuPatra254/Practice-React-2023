@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-button{
+.btn1 {
     margin: auto;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ button{
     transition: .5s ease-in-out;
 }
 
-button:hover{
+.btn1:hover {
     transform: scale(1.5);
     transition: .5s ease-in-out;
 }

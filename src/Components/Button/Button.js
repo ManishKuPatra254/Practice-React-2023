@@ -1,9 +1,9 @@
 
-export function Button() {
+export function Button(props) {
     return (
         <div>
-            <button>
-                Submit Here
+            <button className="btn1">
+                {props.name}
             </button>
         </div>
 

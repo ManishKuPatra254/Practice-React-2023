@@ -6,8 +6,14 @@ import './Components/Button/Button.css';
 function App() {
   return (
     <div className="App">
-    <Button/>
+      <Button name="Submit Here" />
+
+      <div>
+        <Button name="Click Here" />
+      </div>
     </div>
+
+
   );
 }
 
