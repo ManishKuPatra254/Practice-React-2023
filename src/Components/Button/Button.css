@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .5s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.5);
+    transition: .5s ease-in-out;
+}
